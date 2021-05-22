@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Sua Agenda</title>
+</head>
+<body>
+  <script src="/events.js"></script>
+    <nav class="navbar navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="calendar.html">
+            <img src="img/CalendarIcon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Sua Agenda
+          </a>
+          <a href="index.html"><i class="bi bi-arrow-90deg-right" onclick="logout()"></i></a>
+        </div>
+      </nav>
+
+      <div class="carousel-inner my-auto">
+              <div id="carrossel" class="carousel carousel-dark slide my-auto" data-bs-ride="carousel" data-bs-interval="false">
+                <button class="carousel-control-prev position-absolute d-inline mr-auto mt-3" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next position-absolute d-inline ml-auto mt-3" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+              <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 0; 
+                    calendar(mes);
+                </script>
+              </div>
+              <div class="carousel-item" >
+                <script type="text/javascript">
+                    var mes = 1; 
+                calendar(mes);
+                </script>
+              </div>
+              <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 2;
+                    calendar(mes);
+                </script>
+              </div>
+              <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 3; 
+                    calendar(mes);
+                </script>
+              </div>
+              <div class="carousel-item active">
+                <script type="text/javascript">
+                    var mes = 4; 
+                    calendar(mes);
+                </script>
+            </div>
+            <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 5; 
+                    calendar(mes);
+                </script>
+            </div>
+            <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 6; 
+                    calendar(mes);
+                </script>
+            </div>
+            <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 7; 
+                    calendar(mes);
+                </script>
+            </div>
+            <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 8; 
+                    calendar(mes);
+                </script>
+            </div>
+            <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 9; 
+                    calendar(mes);
+                </script>
+            </div>
+            <div class="carousel-item">
+                <script type="text/javascript">
+                    var mes = 10; 
+                    calendar(mes);
+                </script>
+            </div>
+            <div class="carousel-item">
+                    <script type="text/javascript">
+                    var mes = 11; 
+                    calendar(mes);
+                    </script>
+                </script>
+            </div>
+            
+            </div>
+          </div>
+
+
+      <footer class="mt-auto">
+        <div class="container text-center border-top border-success py-2">
+          <div class="container" id="footerlogo">
+            <img src="img/CalendarIcon.png" width="40" height="40" class="d-inline-block align-text-top">
+          </div>
+          <div class="container my-2">
+            <a href="http://github.com/sh0uryu" target="_blank"class="footerLink">Cândido Ferreira &copy; 2021 </a>
+          </div>
+        </div>
+      </footer> 
+
+      <script src="/autenticacao.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
